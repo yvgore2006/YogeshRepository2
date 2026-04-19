@@ -1,16 +1,22 @@
 <template>
     <lightning-card icon-name="standard:account" variant="base">
       <div slot="title">
-          Card Title
+          Card Title modified
       </div>
       <div slot="actions">
-        this is slot.
+        this is slot modified.
+        <lightning-input> </lightning-input>
+        <lightning-button label="Check" variant="Success"></lightning-button>
       </div>
       <div slot="footer">
         this is footer
       </div>
       <div>
         <!-- Card Body  -->
+        This is card body..........
+        <lightning-button label="Check" variant="Success" onclick={handleClick}></lightning-button>
+        <br>This is card body..........</br>
+        <br>
         This is card body..........
       </div>
     </lightning-card>
